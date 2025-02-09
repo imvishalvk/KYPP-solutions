@@ -13,6 +13,13 @@
     padding: 2px;
     list-style-type: none;
 }
+.linkdec{
+    text-decoration: none;
+    color: black;
+}
+.linkdec:hover{
+    text-decoration: underline;
+}
 .list{
     padding: 0 20px 0 20px ;
 }
