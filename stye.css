@@ -34,6 +34,18 @@
     justify-content: center;
 }
 
+/* phone screen */
+@media screen and (max-width: 749px) {
+    .banner {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 749px) {
+    .body {
+        width: auto;
+    }
+}
+
 /* colections */
 
 .imagg:hover {
@@ -68,7 +80,6 @@ transition: transform 0.3s ease-in-out;
     margin: 2vh;
     height: 50vh;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-;
 }
 .flex{
     display: flex;
@@ -78,11 +89,11 @@ transition: transform 0.3s ease-in-out;
     display: flex;
    
 }
-@media screen and (max-width: 749px){
-    .imagg{
-    margin: 1vh 1vh;
-    height: 30vh;
-}
+/* phone screen */
+@media screen and (max-width: 749px) {
+    .imagg2 {
+        height: 30vh;
+    }
 }
 
 /* text with  image */
@@ -113,6 +124,29 @@ transition: transform 0.3s ease-in-out;
     margin-left: 20px;
     padding: 20px;
     
+}
+/* phone screen */
+@media screen and (max-width: 749px) {
+    .txtimg {
+        height: 414px; 
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 749px) {
+    .imgtext {
+        height: 70vh;
+        width: 100%;
+        display: list-item;
+    }
+}
+@media screen and (max-width: 749px) {
+    .imgtext2 {
+        height: 70vh;
+        display: list-item;
+        width: 100%;
+
+    }
 }
 
 /* footer */
@@ -199,7 +233,7 @@ transition: transform 0.3s ease-in-out;
                 @media screen and (max-width: 749px) {
                     .imagg {
                         margin: 1vh 1vh;
-                        height: 10vh;
+                        height: 20vh;
                     }
                 }
             
